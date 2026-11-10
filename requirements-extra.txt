@@ -1,0 +1,5 @@
+# Optional. Not needed to regenerate the submission.
+-r requirements.txt
+
+reportlab==4.1.0   # md_to_pdf.py: renders WRITEUP.md to the PDF technical document
+torch              # tcn_train.py: the rejected MS-TCN experiment (WRITEUP section 8)

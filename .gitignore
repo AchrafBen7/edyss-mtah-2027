@@ -1,0 +1,29 @@
+# This repository is public. It is a WHITELIST: everything is ignored unless it is re-included
+# below, so the match data, the external datasets, feature caches, other models, submissions and
+# any visualisation of the provided game can never be committed by accident.
+/*
+
+!/.gitignore
+!/README.md
+!/WRITEUP.md
+!/LICENSE
+!/LICENSE-challenge.txt
+!/requirements.txt
+!/requirements-extra.txt
+!/*.py
+!/possession_model_final.joblib
+
+# official scorer and validator, as shipped by the challenge repository
+!/evaluation/
+/evaluation/reports/
+/evaluation/scoreboard.csv
+/evaluation/results/*.csv
+!/evaluation/results/baseline_*.csv
+
+# not part of the method: renders frames of the provided game (its output must never be published)
+/visualize.py
+
+# never, anywhere
+__pycache__/
+*.py[cod]
+.DS_Store

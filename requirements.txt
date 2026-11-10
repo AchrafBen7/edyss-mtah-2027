@@ -1,0 +1,13 @@
+# Pinned environment that regenerates edyss.csv byte-for-byte (tested: Python 3.9.6, macOS arm64).
+# possession_model_final.joblib is a scikit-learn pickle and only loads under the scikit-learn
+# version it was saved with: do not upgrade these.
+numpy==2.0.2
+pandas==2.3.3
+python-dateutil==3.0.0
+pytz==2021.3
+six==1.17.0
+tzdata==2026.6
+scikit-learn==1.6.1
+scipy==1.13.1
+joblib==1.5.3
+threadpoolctl==3.7.0
